@@ -2,6 +2,8 @@
 //   return <h1>Hello World</h1>;
 // }
 
+import VideoSection from "./components/VideoSection";
+
 const App = () => {
   return (
     <>
@@ -16,7 +18,7 @@ const App = () => {
         asperiores.
       </p>
 
-      <p>{process.env.REACT_APP_YOUTUBE_API}</p>
+      <VideoSection />
     </>
   );
 };
